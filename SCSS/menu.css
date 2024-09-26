@@ -1,0 +1,108 @@
+.menu1_title-background {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  background-image: url("../Assets/Images/coffee-circle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.menu1_border {
+  position: absolute;
+  width: 40vh;
+  height: 24vh;
+  border: 7px #5bacc3 solid;
+  z-index: 3;
+}
+.menu1_border h1 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+  font-size: 8vh;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+}
+.menu1_title-box {
+  position: relative;
+  top: 22px;
+  left: 22px;
+  width: 41vh;
+  height: 25vh;
+  background-color: #393939;
+}
+.menu1_list-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 8vh;
+  background-color: #393939;
+  align-items: center;
+}
+.menu1_list {
+  width: 55vh;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.menu1_a {
+  padding: 0.21vh 1.57vh 0.21vh 2.31vh;
+  border-left: 5px solid #5bacc3;
+  font-size: 1.8em;
+}
+.menu1_a:visited {
+  color: white;
+}
+
+.menu2_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menu2_detail-title {
+  font-size: 6em;
+  font-weight: 300;
+  margin-bottom: 1.5vh auto;
+  margin-top: 0;
+}
+.menu2_detail-itemname {
+  font-size: 3.5em;
+  font-weight: 350;
+  margin: 0 auto;
+}
+.menu2_hot-drinks {
+  background-color: #fff0ed;
+}
+.menu2_cold-drinks {
+  background-color: #f7f7f7;
+}
+.menu2_pastries {
+  background-color: #fff0ed;
+}
+.menu2_hot-drinks, .menu2_cold-drinks, .menu2_pastries {
+  text-align: center;
+  flex-grow: 1;
+  padding: 2.1vh;
+}
+.menu2_description {
+  width: 100%;
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+.menu2_price {
+  text-align: center;
+  font-size: 2.2em;
+  color: #5bacc3;
+  margin-top: 0;
+  margin-bottom: 4vh;
+}/*# sourceMappingURL=menu.css.map */
