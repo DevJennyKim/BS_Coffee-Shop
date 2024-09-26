@@ -26,9 +26,10 @@ h3 {
   background-color: #fff0ed;
 }
 .nav .logo_img {
-  width: 5vh;
-  height: 5vh;
-  margin-left: 3vh;
+  width: 5.5vh;
+  height: 5.5vh;
+  margin-left: 3.5vh;
+  margin-right: 0.4vh;
 }
 .nav .logo {
   display: flex;
@@ -64,7 +65,7 @@ h3 {
   }
 }
 @keyframes rotate {
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
@@ -234,13 +235,14 @@ h3 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 75vh;
+  height: 70vh;
 }
 .strength_wrap {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80%;
 }
 .strength_container1 {
   display: flex;
@@ -248,27 +250,44 @@ h3 {
   justify-content: center;
   position: relative;
   align-items: flex-start;
-  height: inherit;
+  height: 70%;
+  width: 35%;
 }
 .strength_container2 {
   position: relative;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  width: 50vh;
+  height: 50vh;
 }
 .strength_img-border {
   position: relative;
   background: none;
-  border: 5px solid #5bacc3;
-  width: 45vh;
-  height: 45vh;
-  bottom: 25px;
-  right: 25px;
-  z-index: 2;
-}
-.strength_img {
-  position: absolute;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border: 5px solid #5bacc3;
+  width: 44.5vh;
+  height: 44.5vh;
+  z-index: 2;
+  bottom: 24px;
+  right: 35px;
+}
+.strength_img-border img {
+  width: 17vh;
+  position: absolute;
+  z-index: 3;
+  margin: 6vh 8vh 6vh 8vh;
+}
+.strength_img-border img:hover {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.strength_background {
+  position: absolute;
   width: 46vh;
   height: 45vh;
   z-index: 1;
@@ -276,18 +295,13 @@ h3 {
   background-image: url("../Assets/Images/coldbrewbackground.png");
   background-size: cover;
 }
-.strength_img img {
-  margin: 6.5vh;
-  position: relative;
-  z-index: 3;
-}
 .strength_title {
-  font-size: 8em;
+  font-size: 5em;
   margin: 0;
 }
 .strength_copy {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .strength_icons {
   display: flex;
@@ -296,11 +310,11 @@ h3 {
   margin-top: 3vh;
 }
 .strength_icons img {
-  width: 7vh;
-  height: 7vh;
+  width: 6vh;
+  height: 6vh;
 }
-.strength_button {
-  margin-top: 4vh;
+.strength button {
+  height: 6vh;
 }
 
 .promo {
@@ -308,7 +322,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20vh;
+  margin-bottom: 18vh;
 }
 .promo_box {
   width: 82%;
@@ -328,7 +342,7 @@ h3 {
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 30vh;
+  height: 27vh;
   background-color: #fff0ed;
   font-size: 1.4em;
   overflow: hidden;
