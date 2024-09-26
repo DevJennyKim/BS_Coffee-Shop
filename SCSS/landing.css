@@ -74,7 +74,6 @@ h3 {
   display: flex;
   width: 18vh;
   height: 7vh;
-  margin-top: 7vh;
   margin-bottom: 6vh;
 }
 
@@ -127,6 +126,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 29%;
 }
 .main_title {
   position: relative;
@@ -139,11 +139,11 @@ h3 {
 .main_copy {
   position: relative;
   padding: 0;
-  font-size: 2.22em;
-  width: 41vh;
-  height: 15vh;
+  font-size: 1.6em;
+  height: 13vh;
   float: left;
   z-index: 3;
+  margin-bottom: 0;
 }
 .main_img {
   position: relative;
@@ -172,6 +172,7 @@ h3 {
   justify-content: space-between;
   flex-direction: row;
   width: 80%;
+  margin-bottom: 7vh;
 }
 .product_item1, .product_item2, .product_item3 {
   display: flex;
@@ -250,8 +251,8 @@ h3 {
   justify-content: center;
   position: relative;
   align-items: flex-start;
-  height: 70%;
-  width: 35%;
+  height: 45vh;
+  width: 32%;
 }
 .strength_container2 {
   position: relative;
@@ -278,7 +279,6 @@ h3 {
   width: 17vh;
   position: absolute;
   z-index: 3;
-  margin: 6vh 8vh 6vh 8vh;
 }
 .strength_img-border img:hover {
   animation-name: rotate;
@@ -307,7 +307,8 @@ h3 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 3vh;
+  margin-top: 1.5vh;
+  margin-bottom: 2vh;
 }
 .strength_icons img {
   width: 6vh;
@@ -342,7 +343,7 @@ h3 {
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 27vh;
+  height: 25vh;
   background-color: #fff0ed;
   font-size: 1.4em;
   overflow: hidden;
@@ -368,10 +369,10 @@ h3 {
   margin: 0;
 }
 .footer_img-left {
-  bottom: 6vh;
+  bottom: 4vh;
   right: 4vh;
 }
 .footer_img-right {
-  top: 6vh;
+  top: 4vh;
   left: 4vh;
 }/*# sourceMappingURL=landing.css.map */
