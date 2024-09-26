@@ -1,6 +1,7 @@
 //===========================================
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
+@use 'partials/global';
 @mixin column {
   display: flex;
   flex-direction: column;
@@ -164,9 +165,6 @@ $Nitro-Blue: #5bacc3;
   }
   &_item-group {
     margin-left: 2vh;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: flex-start;
   }
   &_item-name {
     font-size: 2.3em;
