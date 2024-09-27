@@ -1,13 +1,15 @@
 body {
   font-family: "Open Sans";
-  font-weight: regular;
+  font-weight: normal;
   width: 100%;
   margin: 0;
 }
+
 body a {
   text-decoration: none;
   color: inherit;
 }
+
 body ul {
   list-style-type: none;
 }
@@ -25,12 +27,13 @@ h3 {
   height: 10vh;
   background-color: #fff0ed;
 }
+
 .nav .logo_img {
-  width: 5.5vh;
-  height: 5.5vh;
-  margin-left: 3.5vh;
-  margin-right: 0.4vh;
+  width: 5vh;
+  height: 5vh;
+  margin-left: 3vh;
 }
+
 .nav .logo {
   display: flex;
   flex-direction: row;
@@ -38,6 +41,7 @@ h3 {
   font-size: 5vh;
   font-weight: normal;
 }
+
 .nav_menu-list {
   width: 40vh;
   display: flex;
@@ -46,13 +50,14 @@ h3 {
   font-size: 2.5vh;
   font-weight: 500;
 }
+
 .nav_menu-wrap {
   margin-right: 5vh;
 }
+
 .nav_menu-shop-now {
   color: #5bacc3;
-}
-
+} 
 .menu1_title-background {
   display: flex;
   justify-content: center;
@@ -100,7 +105,7 @@ h3 {
   align-items: center;
 }
 .menu1_list {
-  width: 55vh;
+  width: 63vh;
   height: inherit;
   display: flex;
   justify-content: space-around;
@@ -109,9 +114,9 @@ h3 {
   color: white;
 }
 .menu1_a {
-  padding: 0.21vh 1.57vh 0.21vh 2.31vh;
+  padding: 0.21vh 1.2vh 0.21vh 3.5vh;
   border-left: 5px solid #5bacc3;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 .menu1_a:visited {
   color: white;
@@ -123,13 +128,13 @@ h3 {
   justify-content: space-around;
 }
 .menu2_detail-title {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 300;
-  margin-bottom: 1.5vh auto;
+  margin-bottom: 4vh;
   margin-top: 0;
 }
 .menu2_detail-itemname {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 350;
   margin: 0 auto;
 }
@@ -149,14 +154,14 @@ h3 {
 }
 .menu2_description {
   width: 100%;
-  font-size: 2em;
+  font-size: 1.3em;
   font-style: italic;
   margin-top: 1vh;
   margin-bottom: 0;
 }
 .menu2_price {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.3em;
   color: #5bacc3;
   margin-top: 0;
   margin-bottom: 4vh;

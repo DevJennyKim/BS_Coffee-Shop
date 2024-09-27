@@ -1,7 +1,7 @@
 //===========================================
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
-@use 'partials/global';
+@use 'partials/_global.css';
 @mixin flex {
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@ $Nitro-Blue: #5bacc3;
     align-items: center;
   }
   &_list {
-    width: 55vh;
+    width: 63vh;
     height: inherit;
     display: flex;
     justify-content: space-around;
@@ -68,9 +68,9 @@ $Nitro-Blue: #5bacc3;
     color: white;
   }
   &_a {
-    padding: 0.21vh 1.57vh 0.21vh 2.31vh;
+    padding: 0.21vh 1.2vh 0.21vh 3.5vh;
     border-left: 5px solid #5bacc3;
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   &_a:visited {
     color: white;
@@ -84,13 +84,13 @@ $Nitro-Blue: #5bacc3;
     justify-content: space-around;
   }
   &_detail-title {
-    font-size: 6em;
+    font-size: 4em;
     font-weight: 300;
-    margin-bottom: 1.5vh auto;
+    margin-bottom: 4vh;
     margin-top: 0;
   }
   &_detail-itemname {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: 350;
     margin: 0 auto;
   }
@@ -113,14 +113,14 @@ $Nitro-Blue: #5bacc3;
   }
   &_description {
     width: 100%;
-    font-size: 2em;
+    font-size: 1.3em;
     font-style: italic;
     margin-top: 1vh;
     margin-bottom: 0;
   }
   &_price {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 1.3em;
     color: #5bacc3;
     margin-top: 0;
     margin-bottom: 4vh;
