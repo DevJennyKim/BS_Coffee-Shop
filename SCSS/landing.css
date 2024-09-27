@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans";
-  font-weight: regular;
+  font-weight: normal;
   width: 100%;
   margin: 0;
 }
@@ -83,7 +83,7 @@ h3 {
   height: 6vh;
   border: 3px solid black;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.1em;
   background: none;
   display: flex;
   justify-content: center;
@@ -93,8 +93,8 @@ h3 {
 }
 
 .button_border:active {
-  bottom: 6px;
-  right: 6px;
+  top: 7px;
+  left: 7px;
 }
 
 .button_background {
@@ -131,7 +131,7 @@ h3 {
 .main_title {
   position: relative;
   width: 40vh;
-  font-size: 5.2em;
+  font-size: 4em;
   margin: 0;
   float: left;
   z-index: 3;
@@ -139,7 +139,7 @@ h3 {
 .main_copy {
   position: relative;
   padding: 0;
-  font-size: 1.6em;
+  font-size: 1.4em;
   height: 13vh;
   float: left;
   z-index: 3;
@@ -163,7 +163,7 @@ h3 {
   align-items: center;
 }
 .product_title {
-  font-size: 4.5em;
+  font-size: 4em;
   margin-bottom: 6vh;
   margin-top: 4vh;
 }
@@ -214,11 +214,11 @@ h3 {
   margin-left: 2vh;
 }
 .product_item-name {
-  font-size: 2.3em;
+  font-size: 2em;
   margin: 0 auto;
 }
 .product_item-unit {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #909090;
   margin: 0 auto;
   text-align: left;
@@ -269,11 +269,11 @@ h3 {
   justify-content: center;
   align-items: center;
   border: 5px solid #5bacc3;
-  width: 44.5vh;
-  height: 44.5vh;
+  width: 45vh;
+  height: 45vh;
   z-index: 2;
-  bottom: 24px;
-  right: 35px;
+  bottom: 15px;
+  right: 22px;
 }
 .strength_img-border img {
   width: 17vh;
@@ -296,12 +296,12 @@ h3 {
   background-size: cover;
 }
 .strength_title {
-  font-size: 5em;
+  font-size: 4em;
   margin: 0;
 }
 .strength_copy {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .strength_icons {
   display: flex;
@@ -331,7 +331,7 @@ h3 {
   text-align: center;
   background-color: #393939;
   color: white;
-  font-size: 4.67em;
+  font-size: 3.7em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -345,7 +345,7 @@ h3 {
   justify-content: space-between;
   height: 25vh;
   background-color: #fff0ed;
-  font-size: 1.4em;
+  font-size: 1.2em;
   overflow: hidden;
   align-items: center;
 }
@@ -355,7 +355,7 @@ h3 {
   justify-content: space-between;
 }
 .footer_title {
-  font-size: 1.8em;
+  font-size: 1.7em;
   margin: 0;
 }
 .footer_social img {
