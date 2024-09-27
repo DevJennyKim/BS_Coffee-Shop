@@ -1,7 +1,7 @@
 //===========================================
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
-@use 'partials/_global.css';
+@use 'partials/_global.acss';
 @mixin flex {
   display: flex;
   justify-content: center;
