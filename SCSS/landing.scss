@@ -1,7 +1,7 @@
 //===========================================
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
-@use 'partials/global';
+@use 'partials/_global.scss';
 @mixin column {
   display: flex;
   flex-direction: column;
