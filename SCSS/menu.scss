@@ -1,5 +1,15 @@
-@use 'partials/_global.acss';
-
+@use './partials/global';
+$Nitro-Pink: #fff0ed;
+$Nitro-Blue: #5bacc3;
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
 .menu1 {
   &_title-background {
     @include flex;

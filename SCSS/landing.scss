@@ -1,6 +1,16 @@
 //===========================================
-@use 'partials/_global.scss';
-
+@use './partials/global';
+$Nitro-Pink: #fff0ed;
+$Nitro-Blue: #5bacc3;
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
 @keyframes gradient {
   0% {
     background-color: #393939;
@@ -23,7 +33,6 @@
   display: flex;
   width: 20vh;
   height: 15vh;
-  // margin-top: 7vh;
   margin-bottom: 6vh;
 }
 .button_border {

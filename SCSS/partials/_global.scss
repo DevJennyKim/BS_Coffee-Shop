@@ -1,14 +1,5 @@
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
-@mixin column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-@mixin flex {
-  display: flex;
-  justify-content: center;
-}
 body {
   font-family: 'Open Sans';
   font-weight: normal;
@@ -33,7 +24,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  height: 10vh;
+  height: 13vh;
   background-color: $Nitro-Pink;
   .logo_img {
     width: 5.5vh;
@@ -45,6 +36,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 3vh;
     font: {
       size: 3.5rem;
       weight: 300;
@@ -54,7 +46,8 @@ h3 {
     width: 40vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
+    margin-bottom: 4vh;
     font: {
       size: 2.5vh;
       weight: 500;
