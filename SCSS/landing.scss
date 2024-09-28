@@ -133,7 +133,7 @@ $Nitro-Blue: #5bacc3;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 36vh;
+    width: 38vh;
     height: 46vh;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
@@ -147,7 +147,7 @@ $Nitro-Blue: #5bacc3;
     justify-content: space-between;
     align-items: center;
     background-color: $Nitro-Pink;
-    width: 36vh;
+    width: 38vh;
     height: 30vh;
     border: {
       bottom-left-radius: 12px;
@@ -195,7 +195,28 @@ $Nitro-Blue: #5bacc3;
     align-items: flex-start;
     position: relative;
     height: 45vh;
-    width: 34%;
+    width: 50%;
+  }
+  &_title {
+    width: 55vh;
+    font-size: 4rem;
+    margin: 0;
+  }
+  &_copy {
+    width: 55vh;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  &_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 55vh;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+    img {
+      width: 6vh;
+      height: 6vh;
+    }
   }
   &_container2 {
     display: flex;
@@ -241,25 +262,7 @@ $Nitro-Blue: #5bacc3;
       size: cover;
     }
   }
-  &_title {
-    font-size: 4rem;
-    margin: 0;
-  }
-  &_copy {
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
-  &_icons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 1.5vh;
-    margin-bottom: 3vh;
-    img {
-      width: 6vh;
-      height: 6vh;
-    }
-  }
+
   & button {
     width: 23vh;
   }

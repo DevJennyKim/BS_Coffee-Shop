@@ -183,7 +183,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width: 36vh;
+  width: 38vh;
   height: 46vh;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
@@ -196,7 +196,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   background-color: #fff0ed;
-  width: 36vh;
+  width: 38vh;
   height: 30vh;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -243,7 +243,28 @@ h3 {
   align-items: flex-start;
   position: relative;
   height: 45vh;
-  width: 34%;
+  width: 50%;
+}
+.strength_title {
+  width: 55vh;
+  font-size: 4rem;
+  margin: 0;
+}
+.strength_copy {
+  width: 55vh;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.strength_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 55vh;
+  margin-top: 1.5vh;
+  margin-bottom: 3vh;
+}
+.strength_icons img {
+  width: 6vh;
+  height: 6vh;
 }
 .strength_container2 {
   display: flex;
@@ -285,25 +306,6 @@ h3 {
   background-color: #fff0ed;
   background-image: url("../Assets/Images/coldbrewbackground.png");
   background-size: cover;
-}
-.strength_title {
-  font-size: 4rem;
-  margin: 0;
-}
-.strength_copy {
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-.strength_icons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1.5vh;
-  margin-bottom: 3vh;
-}
-.strength_icons img {
-  width: 6vh;
-  height: 6vh;
 }
 .strength button {
   width: 23vh;
