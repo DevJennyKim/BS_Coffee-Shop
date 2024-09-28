@@ -21,7 +21,7 @@ h3 {
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   height: 10vh;
   background-color: #fff0ed;
   .logo_img {
@@ -35,8 +35,8 @@ h3 {
     flex-direction: row;
     align-items: center;
     font: {
-      size: 5vh;
-      weight: normal;
+      size: 3.5rem;
+      weight: 300;
     }
   }
   &_menu-list {
