@@ -1,13 +1,5 @@
-//===========================================
-$Nitro-Pink: #fff0ed;
-$Nitro-Blue: #5bacc3;
 @use 'partials/_global.acss';
-@mixin flex {
-  display: flex;
-  justify-content: center;
-}
 
-//===========================================
 .menu1 {
   &_title-background {
     @include flex;
@@ -69,7 +61,7 @@ $Nitro-Blue: #5bacc3;
   }
   &_a {
     padding: 0.21vh 1.2vh 0.21vh 3.5vh;
-    border-left: 5px solid #5bacc3;
+    border-left: 5px solid $Nitro-Blue;
     font-size: 1.5em;
   }
   &_a:visited {
@@ -121,7 +113,7 @@ $Nitro-Blue: #5bacc3;
   &_price {
     text-align: center;
     font-size: 1.3em;
-    color: #5bacc3;
+    color: $Nitro-Blue;
     margin-top: 0;
     margin-bottom: 4vh;
   }

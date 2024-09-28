@@ -1,3 +1,14 @@
+$Nitro-Pink: #fff0ed;
+$Nitro-Blue: #5bacc3;
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
 body {
   font-family: 'Open Sans';
   font-weight: normal;
@@ -23,7 +34,7 @@ h3 {
   justify-content: space-between;
   align-items: end;
   height: 10vh;
-  background-color: #fff0ed;
+  background-color: $Nitro-Pink;
   .logo_img {
     width: 5.5vh;
     height: 5.5vh;
@@ -53,6 +64,6 @@ h3 {
     margin-right: 5vh;
   }
   &_menu-shop-now {
-    color: #5bacc3;
+    color: $Nitro-Blue;
   }
 }
