@@ -78,7 +78,7 @@ $Nitro-Blue: #5bacc3;
   &_subcontainer {
     position: relative;
     @include column;
-    width: 29%;
+    width: 50%;
   }
   &_title {
     position: relative;
@@ -92,6 +92,7 @@ $Nitro-Blue: #5bacc3;
     position: relative;
     padding: 0;
     font-size: 1.4em;
+    width: 50vh;
     height: 13vh;
     float: left;
     z-index: 3;
