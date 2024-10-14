@@ -1,6 +1,8 @@
 @use './partials/global';
+
 $Nitro-Pink: #fff0ed;
 $Nitro-Blue: #5bacc3;
+
 @mixin column {
   display: flex;
   flex-direction: column;
@@ -72,7 +74,7 @@ $Nitro-Blue: #5bacc3;
   &_a {
     padding: 0.21vh 1.2vh 0.21vh 3.5vh;
     border-left: 5px solid $Nitro-Blue;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   &_a:visited {
     color: white;
@@ -86,7 +88,7 @@ $Nitro-Blue: #5bacc3;
     justify-content: space-around;
   }
   &_detail-title {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 300;
     margin-bottom: 4vh;
     margin-top: 0;
